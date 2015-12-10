@@ -1,0 +1,11 @@
+print ('Introduce un valor')
+valorUno = input()
+valorUno = int(valorUno)
+print ('Introduce otro valor')
+valorDos = input()
+valorDos = int(valorDos)
+print (valorUno)
+print (valorDos)
+valorUno,valorDos = valorDos, valorUno
+print (valorUno)
+print (valorDos)
